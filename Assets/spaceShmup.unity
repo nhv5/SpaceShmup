@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692492, g: 0.4967869, b: 0.57508546, a: 1}
+  m_IndirectSpecularColor: {r: 0.21337813, g: 0.2151939, b: 0.21767816, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -686,23 +686,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabEnemies:
-  - {fileID: 1000011496967906, guid: 5574b73cdccfc904294676aa9f6b15cd, type: 2}
+  - {fileID: 1000012809912350, guid: 886304097c2a6bc4e9113c8f96a911bf, type: 2}
   enemySpawnPerSecond: 0.5
   enemySpawnPadding: 1.5
   weaponDefinitions:
   - type: 1
     letter: B
     color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
-    projectilePrefab: {fileID: 0}
+    projectilePrefab: {fileID: 1000013438213794, guid: da04396eb1f9d4f4b876c7d902eb6fae,
+      type: 2}
     projectileColor: {r: 1, g: 1, b: 1, a: 1}
-    damageOnHit: 1
+    damageOnHit: 5
     continuosDamage: 0
     delayBetweenShots: 0.2
     velocity: 50
   - type: 2
     letter: S
     color: {r: 0.09277679, g: 0.6073559, b: 0.9705882, a: 1}
-    projectilePrefab: {fileID: 0}
+    projectilePrefab: {fileID: 1000013438213794, guid: da04396eb1f9d4f4b876c7d902eb6fae,
+      type: 2}
     projectileColor: {r: 0.07136679, g: 0.5612875, b: 0.9705882, a: 1}
     damageOnHit: 1
     continuosDamage: 0
@@ -711,13 +713,15 @@ MonoBehaviour:
   - type: 6
     letter: O
     color: {r: 0.4982699, g: 0.88235295, b: 0.40224916, a: 1}
-    projectilePrefab: {fileID: 0}
+    projectilePrefab: {fileID: 1000013438213794, guid: da04396eb1f9d4f4b876c7d902eb6fae,
+      type: 2}
     projectileColor: {r: 1, g: 1, b: 1, a: 1}
     damageOnHit: 0
     continuosDamage: 0
     delayBetweenShots: 0
     velocity: 0
-  prefabPowerUp: {fileID: 0}
+  prefabPowerUp: {fileID: 1000012967548542, guid: 0c24ffef3278cab43b7268541e4ad57a,
+    type: 2}
   powerUpFrequency: 01000000010000000200000006000000
   _________________________: 0
   activeWeaponTypes: 
